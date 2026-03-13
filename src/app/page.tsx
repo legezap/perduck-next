@@ -374,7 +374,60 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ========== 9. VOICEVAULT SECTION ========== */}
+      {/* ========== 9. TESTIMONIALS ========== */}
+      <section className="section-pad">
+        <div className="container">
+          <RevealOnScroll>
+            <span className="section-label">Client Feedback</span>
+            <h2 style={{ textAlign: "center", marginBottom: 56 }}>
+              What Our Clients <span className="accent">Say</span>
+            </h2>
+          </RevealOnScroll>
+          <div className="testimonials-grid">
+            {[
+              {
+                quote: "The team delivered outstanding results at Light + Building ME. Their creative approach to our stand design seamlessly integrated our product demonstrations into an engaging visitor experience.",
+                name: "Absolut Skandic",
+                role: "Exhibition Stand",
+                avatar: "/assets/logos/absolut-n.png",
+              },
+              {
+                quote: "Working with this team at Intersec was exceptional. They understood our product range perfectly and created a stand layout that showcased each solution effectively.",
+                name: "Altronix",
+                role: "Intersec Dubai",
+                avatar: "/assets/logos/altronix-client.png",
+              },
+              {
+                quote: "They captured our year-end corporate event brilliantly. The video coverage was comprehensive yet unobtrusive, and the final edit perfectly conveyed the energy of our annual results presentation.",
+                name: "SVN Capital",
+                role: "Corporate Videography",
+                avatar: "/assets/logos/svn-capital.png",
+              },
+              {
+                quote: "Four years of collaboration, and they've never missed a beat. Their consistency in delivering high-quality podcast and video content has been invaluable to growing my platform.",
+                name: "Simon Snelder",
+                role: "Photo & Video Production",
+                avatar: "/assets/logos/simon-snelder.png",
+              },
+            ].map((t, i) => (
+              <RevealOnScroll key={t.name} delay={i * 0.1}>
+                <div className="testimonial-card">
+                  <p className="testimonial-quote">&ldquo;{t.quote}&rdquo;</p>
+                  <div className="testimonial-author">
+                    <Image src={t.avatar} alt={t.name} width={40} height={40} className="testimonial-avatar" />
+                    <div>
+                      <strong>{t.name}</strong>
+                      <span className="text-muted" style={{ fontSize: "0.8rem", display: "block" }}>{t.role}</span>
+                    </div>
+                  </div>
+                </div>
+              </RevealOnScroll>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ========== 10. VOICEVAULT SECTION ========== */}
       <section className="voicevault section-pad">
         <div className="container">
           <div className="vv-grid">
