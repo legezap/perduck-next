@@ -316,4 +316,54 @@ export const projects: Project[] = [
       { value: 12, label: "Products Showcased" },
     ],
   },
+  {
+    slug: "streit-group-idex",
+    client: "Streit Group",
+    event: "IDEX 2023",
+    title: "Streit Group IDEX 2023",
+    image: "/assets/photos/streit-idex-aerial.jpg",
+    size: "500+ sqm",
+    tags: ["Defence & Security", "Fortress Pavilion", "Indoor + Outdoor", "LED Integration"],
+    location: "Abu Dhabi, UAE",
+    overview:
+      "A 500+ sqm fortress-themed pavilion for Streit Group — the world's largest armoured vehicle manufacturer — at IDEX 2023, the premier defence exhibition in the Middle East. The build spanned both outdoor and indoor zones at ADNEC Abu Dhabi, featuring a full-scale Arabic fort with watchtowers, arched vehicle bays housing armoured vehicles, and an indoor technology showcase with LED displays, drone exhibits, and a VIP lounge.",
+    challenge:
+      "Creating a unified brand experience across two radically different environments — an open-air outdoor plaza and a climate-controlled indoor exhibition hall — while accommodating live armoured vehicles weighing up to 16 tonnes. The fortress architecture had to be structurally sound enough to support watchtowers and a second-level viewing platform, yet modular enough to install within the venue's tight access schedule. Integration of a 4-sided LED cube, sea drone display cases, and an unmanned ground vehicle demo area required careful coordination of AV, power, and safety systems.",
+    solution:
+      "We designed the pavilion as a modular fortress system: pre-fabricated GRP (glass-reinforced plastic) panels shaped as sandstone blocks, assembled on-site over a steel skeleton. The outdoor section featured six full-height arched bays engineered with reinforced concrete ramps to support drive-in armoured vehicles. The indoor section centred on a 3m LED cube driven by a quad-output media server, surrounded by themed zones — a sea drone glass display with UV LED underlighting, a Milannon unmanned ground vehicle platform, a Rolls-Royce Barrier Jamming Systems display, and an NFP fire suppression technology showcase. The VIP lounge was built inside a replica watchtower with acoustic treatment and ambient lighting.",
+    features: [
+      {
+        title: "Full-Scale Arabic Fortress",
+        description:
+          "Modular GRP panel construction replicating traditional Arabian fort architecture — watchtowers, battlements, and arched vehicle bays — over a structural steel frame rated for outdoor wind loading.",
+      },
+      {
+        title: "4-Sided LED Cube",
+        description:
+          "3-metre suspended LED cube with 2.5mm pixel pitch, driven by a quad-output media server displaying synchronized Streit Group content on all four faces.",
+      },
+      {
+        title: "Live Vehicle Integration",
+        description:
+          "Six arched drive-in bays with reinforced ramps supporting armoured vehicles up to 16 tonnes, including the Typhoon, Cougar, and Spartan platforms.",
+      },
+      {
+        title: "VIP Watchtower Lounge",
+        description:
+          "Private meeting and hospitality area built inside a replica cylindrical watchtower with acoustic lining, integrated AV, and lounge seating for 12 guests.",
+      },
+    ],
+    results: [
+      "Hosted delegations from 20+ countries including Nigeria, Mexico, Paraguay, Tanzania, Indonesia, Bahrain, and Saudi Arabia",
+      "Stand recognised as one of the largest and most architecturally ambitious at IDEX 2023",
+      "VIP lounge hosted continuous high-level meetings across all 5 show days",
+      "Client confirmed multi-year exhibition partnership following the event",
+    ],
+    stats: [
+      { value: 500, suffix: "+sqm", label: "Total Footprint" },
+      { value: 20, suffix: "+", label: "Country Delegations" },
+      { value: 6, label: "Vehicle Display Bays" },
+      { value: 5, suffix: " days", label: "Show Duration" },
+    ],
+  },
 ];

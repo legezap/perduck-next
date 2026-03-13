@@ -57,6 +57,7 @@ export default function Navbar() {
     { label: "Spark @ Breakbulk", href: "/projects/spark-breakbulk" },
     { label: "Vanderlande @ Airport Show", href: "/projects/vanderlande-airport" },
     { label: "IK Group @ ADIPEC", href: "/projects/ikgroup-adipec" },
+    { label: "Streit Group @ IDEX", href: "/projects/streit-group-idex" },
   ];
 
   let megaTimeout: ReturnType<typeof setTimeout>;

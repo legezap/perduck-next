@@ -21,6 +21,7 @@ const marqueeItems = [
 ];
 
 const trustLogos = [
+  { src: "/assets/logos/streit-group.svg", alt: "Streit Group" },
   { src: "/assets/logos/microsoft.svg", alt: "Microsoft" },
   { src: "/assets/logos/altronix.svg", alt: "Altronix" },
   { src: "/assets/logos/vanderlande.svg", alt: "Vanderlande" },
@@ -58,7 +59,15 @@ const services = [
 
 const featuredProjects = [
   {
-    slug: "vanderlande-airport-show-dubai",
+    slug: "streit-group-idex",
+    title: "Streit Group at IDEX 2023",
+    client: "Streit Group",
+    size: "500+ sqm",
+    type: "Fortress Pavilion",
+    image: "/assets/photos/streit-idex-aerial.jpg",
+  },
+  {
+    slug: "vanderlande-airport",
     title: "Vanderlande at Airport Show Dubai",
     client: "Vanderlande",
     size: "60 sqm",
@@ -66,15 +75,7 @@ const featuredProjects = [
     image: "/assets/photos/vanderlande-airport.jpg",
   },
   {
-    slug: "spark-breakbulk-me-2025",
-    title: "Spark at Breakbulk ME 2025",
-    client: "Spark",
-    size: "60 sqm",
-    type: "Custom Build",
-    image: "/assets/photos/spark-breakbulk.jpg",
-  },
-  {
-    slug: "altronix-intersec-dubai",
+    slug: "altronix-intersec",
     title: "Altronix at Intersec Dubai",
     client: "Altronix",
     size: "25 sqm",
@@ -118,9 +119,9 @@ export default function HomePage() {
             playsInline
             preload="auto"
             className="hero-bg-img"
-            poster={asset("/assets/photos/hero-green-corridor.jpg")}
+            poster={asset("/assets/photos/streit-idex-aerial.jpg")}
           >
-            <source src={asset("/assets/hero-video-web.mp4")} type="video/mp4" />
+            <source src={asset("/assets/idex-2023-hero.mp4")} type="video/mp4" />
           </video>
         </Parallax>
         <div className="hero-overlay" />
@@ -139,9 +140,9 @@ export default function HomePage() {
           <RevealOnScroll delay={0.35}>
             <p className="hero-sub">
               Exhibition stands from <strong>18&nbsp;sqm</strong> to{" "}
-              <strong>700&nbsp;sqm</strong>. Trusted by{" "}
-              <strong>Microsoft</strong>, <strong>Vanderlande</strong>,{" "}
-              <strong>Altronix</strong>, and brands across 6&nbsp;countries.
+              <strong>500+&nbsp;sqm</strong>. Trusted by{" "}
+              <strong>Streit Group</strong>, <strong>Microsoft</strong>,{" "}
+              <strong>Vanderlande</strong>, and brands across 6&nbsp;countries.
             </p>
           </RevealOnScroll>
 
@@ -244,12 +245,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ========== 5. CINEMATIC DIVIDER — MICROSOFT ========== */}
+      {/* ========== 5. CINEMATIC DIVIDER — STREIT GROUP ========== */}
       <section className="cine-divider">
         <Parallax className="cine-divider-bg">
           <Image
-            src="/assets/photos/microsoft-leap.jpg"
-            alt="Microsoft booth at LEAP — 700 sqm double decker"
+            src="/assets/photos/streit-idex-exterior.jpg"
+            alt="Streit Group fortress pavilion at IDEX 2023 — 500+ sqm"
             fill
             style={{ objectFit: "cover" }}
           />
@@ -259,12 +260,13 @@ export default function HomePage() {
           <RevealOnScroll>
             <div>
               <h2>
-                700&nbsp;sqm. Double Decker.{" "}
-                <span className="accent">Microsoft at LEAP.</span>
+                500+&nbsp;sqm. Full-Scale Fortress.{" "}
+                <span className="accent">Streit Group at IDEX.</span>
               </h2>
               <p>
-                Our largest build to date — a fully immersive, two-storey brand
-                experience designed to command the show floor.
+                A fortress pavilion housing live armoured vehicles, LED
+                installations, and drone technology — built across indoor and
+                outdoor zones at ADNEC Abu Dhabi.
               </p>
             </div>
           </RevealOnScroll>
