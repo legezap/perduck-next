@@ -1,3 +1,5 @@
+import { asset } from "@/lib/basePath";
+
 export interface Project {
   slug: string;
   client: string;
@@ -21,7 +23,7 @@ export const projects: Project[] = [
     client: "Microsoft",
     event: "LEAP",
     title: "Microsoft LEAP",
-    image: "/assets/photos/microsoft-leap.jpg",
+    image: asset("/assets/photos/microsoft-leap.jpg"),
     size: "700 sqm",
     tags: ["Double Decker", "LED Integration", "Custom Build"],
     location: "Riyadh, Saudi Arabia",
@@ -71,7 +73,7 @@ export const projects: Project[] = [
     client: "Vanderlande",
     event: "Airport Show",
     title: "Vanderlande Airport Show",
-    image: "/assets/photos/vanderlande-airport.jpg",
+    image: asset("/assets/photos/vanderlande-airport.jpg"),
     size: "60 sqm",
     tags: ["Double Decker", "Product Demo", "Architectural"],
     location: "Dubai, UAE",
@@ -121,7 +123,7 @@ export const projects: Project[] = [
     client: "Spark",
     event: "Breakbulk Middle East",
     title: "Spark Breakbulk ME",
-    image: "/assets/photos/spark-breakbulk.jpg",
+    image: asset("/assets/photos/spark-breakbulk.jpg"),
     size: "60 sqm",
     tags: ["Custom Build", "Industrial Design", "Container Concept"],
     location: "Dubai, UAE",
@@ -171,7 +173,7 @@ export const projects: Project[] = [
     client: "Altronix",
     event: "Intersec",
     title: "Altronix Intersec",
-    image: "/assets/photos/altronix-intersec.jpg",
+    image: asset("/assets/photos/altronix-intersec.jpg"),
     size: "25 sqm",
     tags: ["LED Integration", "Compact Design", "Security"],
     location: "Dubai, UAE",
@@ -221,7 +223,7 @@ export const projects: Project[] = [
     client: "Absolut Skandic",
     event: "Light + Building ME",
     title: "Absolut Skandic L+B ME",
-    image: "/assets/photos/absolut-skandic.jpg",
+    image: asset("/assets/photos/absolut-skandic.jpg"),
     size: "30 sqm",
     tags: ["Lighting Design", "Interactive", "Product Showcase"],
     location: "Dubai, UAE",
@@ -271,7 +273,7 @@ export const projects: Project[] = [
     client: "IK Group",
     event: "ADIPEC",
     title: "IK Group ADIPEC",
-    image: "/assets/photos/ikgroup-adipec.jpg",
+    image: asset("/assets/photos/ikgroup-adipec.jpg"),
     size: "45 sqm",
     tags: ["Oil & Gas", "Technical Display", "Custom Build"],
     location: "Abu Dhabi, UAE",

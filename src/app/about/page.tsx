@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import RevealOnScroll from "@/components/RevealOnScroll";
 import StatsBlock from "./StatsBlock";
+import { asset } from "@/lib/basePath";
 
 export const metadata: Metadata = {
   title: "About Us — Team, Philosophy & Capabilities | The Butter Duck",
@@ -144,7 +145,7 @@ export default function AboutPage() {
             <RevealOnScroll direction="right" className="about-visual">
               <div className="about-img">
                 <Image
-                  src="/assets/photos/duck-brand.jpg"
+                  src={asset("/assets/photos/duck-brand.jpg")}
                   alt="The Butter Duck Dubai HQ"
                   width={720}
                   height={540}

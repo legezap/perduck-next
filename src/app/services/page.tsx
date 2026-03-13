@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import RevealOnScroll from "@/components/RevealOnScroll";
+import { asset } from "@/lib/basePath";
 
 export const metadata: Metadata = {
   title: "Services — Exhibition Design, Event Production & More | The Butter Duck",
@@ -12,7 +13,7 @@ const services = [
     id: "exhibition-design",
     label: "Exhibition Design",
     title: "Exhibition Design & Build",
-    image: "/assets/photos/microsoft-leap.jpg",
+    image: asset("/assets/photos/microsoft-leap.jpg"),
     reverse: false,
     bullets: [
       "Custom exhibition stands from 18 sqm to 700+ sqm, designed for impact and flow",
@@ -27,7 +28,7 @@ const services = [
     id: "project-management",
     label: "Project Management",
     title: "Project Management",
-    image: "/assets/photos/spark-breakbulk.jpg",
+    image: asset("/assets/photos/spark-breakbulk.jpg"),
     reverse: true,
     bullets: [
       "Dedicated project manager from brief to breakdown",
@@ -42,7 +43,7 @@ const services = [
     id: "event-design",
     label: "Conceptual Event Design",
     title: "Conceptual Event Design",
-    image: "/assets/photos/absolut-skandic.jpg",
+    image: asset("/assets/photos/absolut-skandic.jpg"),
     reverse: false,
     bullets: [
       "Immersive brand experiences and themed environments",
@@ -57,7 +58,7 @@ const services = [
     id: "content-media",
     label: "Content & Media",
     title: "Content & Media Production",
-    image: "/assets/photos/altronix-intersec.jpg",
+    image: asset("/assets/photos/altronix-intersec.jpg"),
     reverse: true,
     bullets: [
       "Video production for booth loops, teasers, and social content",

@@ -21,12 +21,12 @@ const marqueeItems = [
 ];
 
 const trustLogos = [
-  { src: "/assets/logos/microsoft.svg", alt: "Microsoft" },
-  { src: "/assets/logos/altronix.svg", alt: "Altronix" },
-  { src: "/assets/logos/vanderlande.svg", alt: "Vanderlande" },
-  { src: "/assets/logos/spark.svg", alt: "Spark" },
-  { src: "/assets/logos/absolut-skandic.svg", alt: "Absolut Skandic" },
-  { src: "/assets/logos/ik-group.svg", alt: "IK Group" },
+  { src: asset("/assets/logos/microsoft.svg"), alt: "Microsoft" },
+  { src: asset("/assets/logos/altronix.svg"), alt: "Altronix" },
+  { src: asset("/assets/logos/vanderlande.svg"), alt: "Vanderlande" },
+  { src: asset("/assets/logos/spark.svg"), alt: "Spark" },
+  { src: asset("/assets/logos/absolut-skandic.svg"), alt: "Absolut Skandic" },
+  { src: asset("/assets/logos/ik-group.svg"), alt: "IK Group" },
 ];
 
 const services = [
@@ -63,7 +63,7 @@ const featuredProjects = [
     client: "Vanderlande",
     size: "60 sqm",
     type: "Double Decker",
-    image: "/assets/photos/vanderlande-airport.jpg",
+    image: asset("/assets/photos/vanderlande-airport.jpg"),
   },
   {
     slug: "spark-breakbulk-me-2025",
@@ -71,7 +71,7 @@ const featuredProjects = [
     client: "Spark",
     size: "60 sqm",
     type: "Custom Build",
-    image: "/assets/photos/spark-breakbulk.jpg",
+    image: asset("/assets/photos/spark-breakbulk.jpg"),
   },
   {
     slug: "altronix-intersec-dubai",
@@ -79,7 +79,7 @@ const featuredProjects = [
     client: "Altronix",
     size: "25 sqm",
     type: "LED Integration",
-    image: "/assets/photos/altronix-intersec.jpg",
+    image: asset("/assets/photos/altronix-intersec.jpg"),
   },
 ];
 
@@ -248,7 +248,7 @@ export default function HomePage() {
       <section className="cine-divider">
         <Parallax className="cine-divider-bg">
           <Image
-            src="/assets/photos/microsoft-leap.jpg"
+            src={asset("/assets/photos/microsoft-leap.jpg")}
             alt="Microsoft booth at LEAP — 700 sqm double decker"
             fill
             style={{ objectFit: "cover" }}
@@ -318,7 +318,7 @@ export default function HomePage() {
       <section className="cine-divider">
         <Parallax className="cine-divider-bg">
           <Image
-            src="/assets/photos/altronix-intersec.jpg"
+            src={asset("/assets/photos/altronix-intersec.jpg")}
             alt="Altronix booth at Intersec Dubai"
             fill
             style={{ objectFit: "cover" }}
@@ -497,7 +497,7 @@ export default function HomePage() {
               <div className="about-visual">
                 <div className="about-img">
                   <Image
-                    src="/assets/photos/duck-brand.jpg"
+                    src={asset("/assets/photos/duck-brand.jpg")}
                     alt="The Butter Duck — the team behind your booth"
                     width={640}
                     height={480}
