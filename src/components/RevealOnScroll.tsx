@@ -6,6 +6,7 @@ import { useRef } from "react";
 interface Props {
   children: React.ReactNode;
   className?: string;
+  style?: React.CSSProperties;
   delay?: number;
   direction?: "up" | "down" | "left" | "right" | "scale" | "clip";
 }
@@ -43,6 +44,7 @@ const variants: Record<
 export default function RevealOnScroll({
   children,
   className,
+  style,
   delay = 0,
   direction = "up",
 }: Props) {
@@ -55,6 +57,7 @@ export default function RevealOnScroll({
     <motion.div
       ref={ref}
       className={className}
+      style={style}
       initial={hidden}
       animate={isInView ? visible : hidden}
       transition={{

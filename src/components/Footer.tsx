@@ -51,7 +51,7 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} The Butter Duck Company FZC LLC. All rights reserved. License: 4426620.01</p>
-          <p>Dubai, United Arab Emirates</p>
+          <p>United Arab Emirates</p>
         </div>
       </div>
     </footer>

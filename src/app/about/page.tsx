@@ -8,7 +8,7 @@ import { asset } from "@/lib/basePath";
 export const metadata: Metadata = {
   title: "About The Butter Duck | Exhibition Stand Builder in Dubai, UAE",
   description:
-    "Dubai-based exhibition design and event production company. 80+ projects across 6 countries. Custom booth builds from 18 sqm to 700 sqm. Founded 2019, trusted by Microsoft and Vanderlande.",
+    "UAE-based exhibition design and event production company. 80+ projects across 10 countries. Custom booth builds from 18 sqm to 700 sqm. Founded 2019, trusted by Microsoft and Vanderlande.",
 };
 
 const values = [
@@ -20,7 +20,7 @@ const values = [
   {
     icon: "\uD83D\uDC41",
     title: "Senior Eyes Only",
-    desc: "No hand-offs to juniors. Your project is managed by the people who pitched it.",
+    desc: "No hand-offs to juniors. Your project is managed by the people who were involved from A to Z.",
   },
   {
     icon: "\uD83D\uDCCB",
@@ -40,7 +40,7 @@ const values = [
   {
     icon: "\uD83C\uDF0D",
     title: "Global Reach Local Knowledge",
-    desc: "Dubai HQ, deployed across 6 countries. We know the venues, the vendors, and the rules.",
+    desc: "UAE HQ, deployed across 10 countries. We know the venues, the vendors, and the rules.",
   },
 ];
 
@@ -53,6 +53,9 @@ const capabilities = [
   { icon: "\uD83D\uDD28", name: "On-Site Installation" },
   { icon: "\uD83C\uDFA8", name: "Graphic Production" },
   { icon: "\uD83C\uDFAC", name: "Content Production" },
+  { icon: "\uD83D\uDCBC", name: "Branding" },
+  { icon: "\uD83D\uDCCA", name: "Financial Evaluation" },
+  { icon: "\uD83D\uDCAC", name: "Communication" },
 ];
 
 const timeline = [
@@ -80,6 +83,11 @@ const timeline = [
     year: "2024",
     title: "80+ Projects Milestone",
     desc: "Crossed 80 completed projects with a 100% on-time delivery record.",
+  },
+  {
+    year: "2025",
+    title: "10 Countries Reached",
+    desc: "Expanded operations to 10 countries with capabilities spanning project management, branding, financial evaluation, and full A-to-Z communication.",
   },
 ];
 
@@ -112,7 +120,7 @@ export default function AboutPage() {
           </RevealOnScroll>
           <RevealOnScroll delay={0.2}>
             <p>
-              We&apos;re a Dubai-based exhibition design and event production
+              We&apos;re a UAE-based exhibition design and event production
               studio obsessed with quality, deadlines, and making brands
               impossible to ignore on the show floor.
             </p>
@@ -138,7 +146,7 @@ export default function AboutPage() {
                 time.
               </p>
               <p style={{ color: "var(--color-text-muted)", lineHeight: 1.8 }}>
-                Today, we operate from Dubai and deploy globally. Our team
+                Today, we operate from the UAE and deploy globally. Our team
                 combines architectural design, structural engineering, AV
                 expertise, and project management into a single integrated
                 pipeline. No middlemen. No surprises.
@@ -148,13 +156,13 @@ export default function AboutPage() {
               <div className="about-img">
                 <Image
                   src={asset("/assets/photos/duck-brand.jpg")}
-                  alt="The Butter Duck Dubai HQ"
+                  alt="The Butter Duck UAE HQ"
                   width={720}
                   height={540}
                   style={{ width: "100%", height: "auto", objectFit: "cover" }}
                 />
               </div>
-              <span className="about-badge">Dubai HQ</span>
+              <span className="about-badge">UAE HQ</span>
             </RevealOnScroll>
           </div>
         </div>
@@ -227,7 +235,7 @@ export default function AboutPage() {
             }}
           >
             {capabilities.map((c, i) => (
-              <RevealOnScroll key={c.name} delay={i * 0.06} direction="scale">
+              <RevealOnScroll key={c.name} delay={i * 0.06} direction="scale" style={{ height: "100%" }}>
                 <div
                   style={{
                     textAlign: "center",
@@ -235,6 +243,11 @@ export default function AboutPage() {
                     border: "1px solid var(--color-border-default)",
                     borderRadius: "var(--radius-default)",
                     transition: "all 0.6s var(--ease-out)",
+                    height: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
                   }}
                 >
                   <div style={{ fontSize: "1.8rem", marginBottom: 12 }}>{c.icon}</div>

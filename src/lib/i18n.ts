@@ -30,10 +30,10 @@ const translations = {
     "mega.media.desc": "Video, graphics, interactive tech",
 
     // Hero
-    "hero.badge": "Dubai-Based, Globally Deployed",
+    "hero.badge": "UAE-Based, Globally Deployed",
     "hero.title": "We Build Experiences That",
     "hero.title.accent": "Command Attention",
-    "hero.sub": "Exhibition stands, event production, and immersive brand environments from <strong>18 sqm to 700 sqm</strong>. Trusted by Microsoft, Vanderlande, and brands across 6 countries.",
+    "hero.sub": "Exhibition stands, event production, and immersive brand environments from <strong>18 sqm to 700 sqm</strong>. Trusted by Microsoft, Vanderlande, and brands across 10 countries.",
     "hero.cta.start": "Start Your Project",
     "hero.cta.work": "View Our Work",
     "hero.stat.projects": "Projects Delivered",
@@ -59,7 +59,7 @@ const translations = {
 
     // Cinematic
     "cine.microsoft": "700 sqm. Double Decker. Microsoft at LEAP.",
-    "cine.microsoft.sub": "Our largest build to date — a partner-centric pavilion in Riyadh.",
+    "cine.microsoft.sub": "Our largest build to date — a partner-centric stand in Riyadh.",
     "cine.impact": "Every Square Meter Engineered for Impact.",
 
     // Portfolio
@@ -75,23 +75,12 @@ const translations = {
     "stats.industries": "Industries Served",
     "stats.ontime": "On-Time Delivery Rate",
 
-    // VoiceVault
-    "vv.label": "Proprietary Technology",
-    "vv.title": "VoiceVault",
-    "vv.desc": "Our proprietary audio experience system for exhibitions and events. VoiceVault creates targeted sound zones within your booth, delivering crystal-clear audio without bleeding into neighboring stands.",
-    "vv.audio.title": "Directional Audio Zones",
-    "vv.audio.desc": "Focused sound delivery within defined areas — no spillover to neighbors.",
-    "vv.protect.title": "Content Protection",
-    "vv.protect.desc": "Secure audio content delivery for product launches and confidential presentations.",
-    "vv.plug.title": "Plug-and-Play Integration",
-    "vv.plug.desc": "Deploys within any booth structure. No special infrastructure required.",
-    "vv.cta": "Request a Demo",
 
     // About
     "about.label": "Who We Are",
     "about.title": "Built Different.",
     "about.title.accent": "Built to Deliver.",
-    "about.p1": "We are a Dubai-based exhibition and event company that operates like a special operations unit: small, focused, lethal on deadlines. Every project gets senior-level attention from concept through final installation.",
+    "about.p1": "We are a UAE-based exhibition and event company that operates like a special operations unit: small, focused, lethal on deadlines. Every project gets senior-level attention from concept through final installation.",
     "about.p2": "Our team combines architectural design, structural engineering, and creative production under one roof — eliminating the handoff gaps that plague traditional agencies.",
     "about.learn": "Learn More",
     "about.talk": "Talk to Us",
@@ -100,7 +89,7 @@ const translations = {
     "aboutpage.label": "Who We Are",
     "aboutpage.title": "Built Different.",
     "aboutpage.title.accent": "Built to Deliver.",
-    "aboutpage.desc": "A Dubai-based exhibition and event company that operates like a special operations unit: small, focused, and relentless on deadlines.",
+    "aboutpage.desc": "A UAE-based exhibition and event company that operates like a special operations unit: small, focused, and relentless on deadlines.",
     "aboutpage.story.label": "Our Story",
     "aboutpage.story.title": "From Concept to",
     "aboutpage.story.title.accent": "Global Execution",
@@ -149,7 +138,7 @@ const translations = {
     "contact.consent": "I agree that The Butter Duck may store and process my data to respond to this inquiry.",
 
     // Footer
-    "footer.brand": "Turning vision into experience, every event, every time. Dubai-based exhibition design and event production for global brands.",
+    "footer.brand": "Turning vision into experience, every event, every time. UAE-based exhibition design and event production for global brands.",
     "footer.services": "Services",
     "footer.company": "Company",
     "footer.aboutus": "About Us",
@@ -184,10 +173,10 @@ const translations = {
     "mega.media": "المحتوى والإعلام",
     "mega.media.desc": "فيديو، رسومات، تقنيات تفاعلية",
 
-    "hero.badge": "مقرنا دبي، عملنا عالمي",
+    "hero.badge": "مقرنا الإمارات، عملنا عالمي",
     "hero.title": "نبني تجارب",
     "hero.title.accent": "تجذب كل الأنظار",
-    "hero.sub": "أجنحة معارض وإنتاج فعاليات وبيئات غامرة للعلامات التجارية من <strong>18 م² إلى 700 م²</strong>. موثوقون من مايكروسوفت وفاندرلاند وعلامات تجارية في 6 دول.",
+    "hero.sub": "أجنحة معارض وإنتاج فعاليات وبيئات غامرة للعلامات التجارية من <strong>18 م² إلى 700 م²</strong>. موثوقون من مايكروسوفت وفاندرلاند وعلامات تجارية في 10 دول.",
     "hero.cta.start": "ابدأ مشروعك",
     "hero.cta.work": "عرض أعمالنا",
     "hero.stat.projects": "مشروع منجز",
@@ -223,21 +212,11 @@ const translations = {
     "stats.industries": "صناعة مخدومة",
     "stats.ontime": "معدل التسليم في الموعد",
 
-    "vv.label": "تقنية خاصة",
-    "vv.title": "VoiceVault",
-    "vv.desc": "نظام الصوت الخاص بنا للمعارض والفعاليات. يُنشئ VoiceVault مناطق صوتية مستهدفة داخل جناحك.",
-    "vv.audio.title": "مناطق صوت اتجاهية",
-    "vv.audio.desc": "توصيل صوت مركّز ضمن مناطق محددة — بدون تسرب للأجنحة المجاورة.",
-    "vv.protect.title": "حماية المحتوى",
-    "vv.protect.desc": "تسليم آمن للمحتوى الصوتي لإطلاق المنتجات والعروض السرية.",
-    "vv.plug.title": "تكامل سهل التركيب",
-    "vv.plug.desc": "يعمل في أي هيكل جناح. لا يحتاج بنية تحتية خاصة.",
-    "vv.cta": "اطلب عرض تجريبي",
 
     "about.label": "من نحن",
     "about.title": "مختلفون في البناء.",
     "about.title.accent": "ملتزمون بالتسليم.",
-    "about.p1": "شركة معارض وفعاليات مقرها دبي تعمل كوحدة عمليات خاصة: صغيرة ومركزة وحازمة في المواعيد.",
+    "about.p1": "شركة معارض وفعاليات مقرها الإمارات تعمل كوحدة عمليات خاصة: صغيرة ومركزة وحازمة في المواعيد.",
     "about.p2": "يجمع فريقنا بين التصميم المعماري والهندسة الإنشائية والإنتاج الإبداعي تحت سقف واحد.",
     "about.learn": "اعرف المزيد",
     "about.talk": "تواصل معنا",
@@ -245,7 +224,7 @@ const translations = {
     "aboutpage.label": "من نحن",
     "aboutpage.title": "مختلفون في البناء.",
     "aboutpage.title.accent": "ملتزمون بالتسليم.",
-    "aboutpage.desc": "شركة معارض وفعاليات مقرها دبي تعمل كوحدة عمليات خاصة: صغيرة ومركزة ولا تتهاون في المواعيد.",
+    "aboutpage.desc": "شركة معارض وفعاليات مقرها الإمارات تعمل كوحدة عمليات خاصة: صغيرة ومركزة ولا تتهاون في المواعيد.",
     "aboutpage.story.label": "قصتنا",
     "aboutpage.story.title": "من الفكرة إلى",
     "aboutpage.story.title.accent": "التنفيذ العالمي",
@@ -291,7 +270,7 @@ const translations = {
     "contact.success.ref": "رقم المرجع:",
     "contact.consent": "أوافق على أن The Butter Duck قد تخزن وتعالج بياناتي للرد على هذا الاستفسار.",
 
-    "footer.brand": "نحوّل الرؤية إلى تجربة، في كل فعالية، في كل مرة. تصميم معارض وإنتاج فعاليات من دبي للعلامات التجارية العالمية.",
+    "footer.brand": "نحوّل الرؤية إلى تجربة، في كل فعالية، في كل مرة. تصميم معارض وإنتاج فعاليات من الإمارات للعلامات التجارية العالمية.",
     "footer.services": "الخدمات",
     "footer.company": "الشركة",
     "footer.aboutus": "من نحن",

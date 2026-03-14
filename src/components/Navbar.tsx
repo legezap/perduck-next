@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useI18n } from "@/lib/I18nContext";
@@ -54,17 +54,17 @@ export default function Navbar() {
     { label: "Microsoft LEAP", href: "/projects/microsoft-leap" },
     { label: "Nespresso CreatistaPlus", href: "/projects/nespresso-creatista" },
     { label: "Vanderlande Airport Show", href: "/projects/vanderlande-airport" },
-    { label: "Spark Breakbulk ME", href: "/projects/spark-breakbulk" },
+    { label: "Spark Logistics Breakbulk ME", href: "/projects/spark-breakbulk" },
     { label: "HOOSH World of Vape", href: "/projects/hoosh-world-of-vape" },
-    { label: "Sipchem ADIPEC", href: "/projects/sipchem-adipec" },
+    { label: "Sipchem Middle East Coatings Show", href: "/projects/sipchem-adipec" },
     { label: "Interfood Gulfood", href: "/projects/interfood-gulfood" },
     { label: "Altronix Intersec", href: "/projects/altronix-intersec" },
   ];
 
-  let megaTimeout: ReturnType<typeof setTimeout>;
-  const showMega = (id: string) => { clearTimeout(megaTimeout); setMegaOpen(id); };
-  const hideMega = () => { megaTimeout = setTimeout(() => setMegaOpen(null), 200); };
-  const keepMega = () => { clearTimeout(megaTimeout); };
+  const megaTimeoutRef = useRef<ReturnType<typeof setTimeout>>(undefined);
+  const showMega = (id: string) => { clearTimeout(megaTimeoutRef.current); setMegaOpen(id); };
+  const hideMega = () => { megaTimeoutRef.current = setTimeout(() => setMegaOpen(null), 200); };
+  const keepMega = () => { clearTimeout(megaTimeoutRef.current); };
 
   return (
     <>

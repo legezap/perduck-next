@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import Image from "next/image";
 
 interface ImageGalleryProps {
@@ -10,6 +10,8 @@ interface ImageGalleryProps {
 
 export default function ImageGallery({ images, alt }: ImageGalleryProps) {
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+  const closeRef = useRef<HTMLButtonElement>(null);
+  const touchStart = useRef<number | null>(null);
 
   const close = useCallback(() => setLightboxIndex(null), []);
   const prev = useCallback(
@@ -35,6 +37,7 @@ export default function ImageGallery({ images, alt }: ImageGalleryProps) {
       if (e.key === "ArrowRight") next();
     };
     document.body.style.overflow = "hidden";
+    setTimeout(() => closeRef.current?.focus(), 50);
     window.addEventListener("keydown", onKey);
     return () => {
       document.body.style.overflow = "";
@@ -81,10 +84,18 @@ export default function ImageGallery({ images, alt }: ImageGalleryProps) {
 
       {/* Lightbox */}
       {lightboxIndex !== null && (
-        <div className="lightbox" onClick={close}>
+        <div className="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox" onClick={close}>
           <div
             className="lightbox-content"
             onClick={(e) => e.stopPropagation()}
+            onTouchStart={(e) => { touchStart.current = e.touches[0].clientX; }}
+            onTouchEnd={(e) => {
+              if (touchStart.current === null) return;
+              const diff = e.changedTouches[0].clientX - touchStart.current;
+              if (diff > 50) prev();
+              else if (diff < -50) next();
+              touchStart.current = null;
+            }}
           >
             <Image
               src={images[lightboxIndex]}
@@ -105,6 +116,7 @@ export default function ImageGallery({ images, alt }: ImageGalleryProps) {
           </div>
 
           <button
+            ref={closeRef}
             className="lightbox-close"
             onClick={close}
             aria-label="Close lightbox"

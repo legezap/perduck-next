@@ -7,7 +7,7 @@ import { asset } from "@/lib/basePath";
 export const metadata: Metadata = {
   title: "Exhibition Stand Design & Build Services | The Butter Duck Dubai",
   description:
-    "Custom exhibition stand design, build, project management, and event production services in Dubai, UAE. From 18 sqm booths to 700 sqm double-decker pavilions. Get a free quote.",
+    "Custom exhibition stand design, build, project management, and event production services in the UAE. From 18 sqm booths to 700 sqm double-decker stands. Get a free quote.",
 };
 
 const services = [
@@ -45,7 +45,7 @@ const services = [
     id: "event-design",
     label: "Conceptual Event Design",
     title: "Conceptual Event Design",
-    image: asset("/assets/photos/absolut-skandic.jpg"),
+    image: asset("/assets/photos/gallery/nespresso-NES-1239.jpg"),
     reverse: false,
     bullets: [
       "Immersive brand experiences and themed environments",
@@ -60,7 +60,7 @@ const services = [
     id: "content-media",
     label: "Content & Media",
     title: "Content & Media Production",
-    image: asset("/assets/photos/altronix-intersec.jpg"),
+    image: asset("/assets/photos/hero-microsoft-gitex.jpg"),
     reverse: true,
     bullets: [
       "Video production for booth loops, teasers, and social content",
@@ -170,7 +170,7 @@ export default function ServicesPage() {
           </RevealOnScroll>
           <RevealOnScroll delay={0.1}>
             <p>
-              Whether it&apos;s a 20 sqm stand or a 500 sqm pavilion, we bring
+              Whether it&apos;s a 20 sqm stand or a 500 sqm build, we bring
               the same obsessive attention to detail.
             </p>
           </RevealOnScroll>

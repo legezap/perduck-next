@@ -5,7 +5,7 @@ import RevealOnScroll from "@/components/RevealOnScroll";
 
 const stats = [
   { target: 80, suffix: "+", label: "Projects Delivered" },
-  { target: 6, suffix: "", label: "Countries" },
+  { target: 10, suffix: "", label: "Countries" },
   { target: 15, suffix: "+", label: "Industries Served" },
   { target: 100, suffix: "%", label: "On-Time Delivery" },
 ];

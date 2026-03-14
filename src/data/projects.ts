@@ -29,11 +29,11 @@ export const projects: Project[] = [
     tags: ["Double Decker", "LED Integration", "Custom Build"],
     location: "Riyadh, Saudi Arabia",
     overview:
-      "A 700 sqm double-decker pavilion for Microsoft at LEAP, Saudi Arabia's flagship technology conference. The structure served as a fully immersive brand environment featuring live demos, executive meeting suites, a keynote theatre, and a 360-degree LED experience zone spanning both levels.",
+      "A 700 sqm double-decker stand for Microsoft at LEAP, Saudi Arabia's flagship technology conference. The structure served as a fully immersive brand environment featuring live demos, executive meeting suites, and a keynote theatre spanning both levels.",
     challenge:
-      "Designing and engineering a two-storey structure within a tight 10-day venue access window, while meeting Saudi Civil Defence load and fire safety requirements. The upper deck needed to support 350 kg/sqm live loading for meeting rooms and a hospitality lounge, and the entire LED content pipeline had to sync across 42 individual panels driven by a single Barco media server.",
+      "Designing and engineering a two-storey structure within a tight 10-day venue access window, while meeting Saudi Civil Defence load and fire safety requirements. The upper deck needed to support 350 kg/sqm live loading for meeting rooms and a hospitality lounge.",
     solution:
-      "We engineered the superstructure around 200x200mm steel I-beams with IPE 240 cross-members, pre-fabricated in our Dubai workshop and shipped flat-pack to Riyadh. The LED wall used 2.6mm pitch panels totalling 68 sqm of seamless display area, calibrated on-site over two overnight sessions. A 400A three-phase power distribution system fed all AV, lighting, and HVAC independently to prevent brownouts during peak demo hours.",
+      "We engineered the superstructure around 200x200mm steel I-beams with IPE 240 cross-members, pre-fabricated in our Dubai workshop and shipped flat-pack to Riyadh. The LED wall used 2.6mm pitch panels totalling 68 sqm of seamless display area, calibrated on-site over two overnight sessions. A 63A three-phase power distribution system fed all AV, lighting, and HVAC independently to prevent brownouts during peak demo hours.",
     features: [
       {
         title: "Double-Decker Superstructure",
@@ -41,32 +41,26 @@ export const projects: Project[] = [
           "200x200mm steel I-beams with IPE 240 cross-members, engineered for 350 kg/sqm upper-deck loading with integrated cable management channels.",
       },
       {
-        title: "68 sqm LED Experience Wall",
-        description:
-          "2.6mm pixel-pitch LED panels driven by a Barco E2 media server, delivering synchronized content across 42 individually mapped display zones.",
-      },
-      {
         title: "320 sqm Printed Graphics",
         description:
           "Tension-fabric lightboxes and direct-print wall panels using UV-cured inks on flame-retardant substrates, installed in modular cassettes for rapid swap-out.",
       },
       {
-        title: "400A Power Distribution",
+        title: "63A Power Distribution",
         description:
-          "Three-phase 400A main feed split across six sub-distribution boards, each with independent RCD protection for AV, lighting, HVAC, and catering circuits.",
+          "63A three-phase power distribution with dedicated circuits for AV, lighting, and HVAC systems.",
       },
     ],
     results: [
-      "Completed full installation in 5 days with a 35-person crew, one day ahead of schedule",
+      "Completed full installation in 10 days with a 35-person crew, one day ahead of schedule",
       "Zero safety incidents across build, show, and dismantle phases",
       "Hosted over 8,000 visitor interactions across the 4-day event",
-      "Client re-booked for the following year within two weeks of show close",
+      "Client approved the next edition's build before show close",
     ],
     stats: [
       { value: 700, suffix: " sqm", label: "Stand Footprint" },
       { value: 35, label: "Installation Crew" },
-      { value: 68, suffix: " sqm", label: "LED Display Area" },
-      { value: 5, suffix: " days", label: "Build Time" },
+      { value: 10, suffix: " days", label: "Build Time" },
     ],
     gallery: [
       asset("/assets/photos/gallery/microsoft-IMG_3408.jpg"),
@@ -90,14 +84,6 @@ export const projects: Project[] = [
       asset("/assets/photos/gallery/microsoft-IMG_3161.jpg"),
       asset("/assets/photos/gallery/microsoft-AAA00001.jpg"),
       asset("/assets/photos/gallery/microsoft-AAA00052.jpg"),
-      asset("/assets/photos/gallery/microsoft-render-1.jpg"),
-      asset("/assets/photos/gallery/microsoft-render-2.jpg"),
-      asset("/assets/photos/gallery/microsoft-render-3.jpg"),
-      asset("/assets/photos/gallery/microsoft-render-4.jpg"),
-      asset("/assets/photos/gallery/microsoft-render-5.jpg"),
-      asset("/assets/photos/gallery/microsoft-render-6.jpg"),
-      asset("/assets/photos/gallery/microsoft-render-7.jpg"),
-      asset("/assets/photos/gallery/microsoft-render-8.jpg"),
       asset("/assets/photos/gallery/microsoft-floorplan-1.jpg"),
     ],
   },
@@ -107,13 +93,13 @@ export const projects: Project[] = [
     event: "CreatistaPlus Launch",
     title: "Nespresso CreatistaPlus Launch",
     image: asset("/assets/photos/gallery/nespresso-NES-1239.jpg"),
-    size: "180 sqm",
+    size: "1200 sqm",
     tags: ["Event Production", "Premium Launch", "Brand Experience"],
     location: "Dubai, UAE",
     overview:
-      "A 180 sqm premium product launch event for Nespresso's CreatistaPlus machine, staged at a five-star hotel venue in Dubai. The experience combined a cocktail bar, live barista stations, curated photo zones, and an intimate keynote area — designed to make media, influencers, and VIP guests feel the brand's luxury positioning from the moment they walked in.",
+      "A 1200 sqm premium product launch event for Nespresso's CreatistaPlus machine, staged at Inked Al Serkal Avenue, Dubai. The experience combined a cocktail bar, live barista stations, curated photo zones, and an intimate keynote area — designed to make media, influencers, and VIP guests feel the brand's luxury positioning from the moment they walked in.",
     challenge:
-      "Creating a multi-sensory brand world inside a hotel ballroom with low ceilings and limited rigging points. The client needed distinct zones — welcome, product reveal, tasting bar, photo opportunity, and networking lounge — to flow naturally without physical barriers, while maintaining a sense of exclusivity and visual polish worthy of the Nespresso brand.",
+      "Creating a multi-sensory brand world inside a large warehouse-style venue at Al Serkal Avenue. The client needed distinct zones — welcome, product reveal, tasting bar, photo opportunity, and networking lounge — to flow naturally across the open 1200 sqm floor without physical barriers, while maintaining a sense of exclusivity and visual polish worthy of the Nespresso brand.",
     solution:
       "We built a freestanding architectural framework using slim 60x60mm black steel profiles with integrated LED strip channels, creating glowing archways that guided guests through each zone without walls. The cocktail bar was fabricated from brushed copper-finish panels with backlit Nespresso branding, while the photo zone used a 4-metre floral wall as its backdrop. All lighting was pre-programmed on a DMX timeline synced to the event runsheet.",
     features: [
@@ -137,6 +123,11 @@ export const projects: Project[] = [
         description:
           "Full DMX lighting rig pre-programmed to a show timeline, transitioning between welcome, reveal, tasting, and networking phases automatically.",
       },
+      {
+        title: "CNC Steel Framework",
+        description:
+          "Precision-cut CNC steel structural elements providing the backbone for large-format installations and suspended elements across the 1200 sqm venue.",
+      },
     ],
     results: [
       "Event hosted 200+ VIP guests including top-tier media and influencers",
@@ -145,27 +136,16 @@ export const projects: Project[] = [
       "Client rated the event production a 10/10 in post-event debrief",
     ],
     stats: [
-      { value: 180, suffix: " sqm", label: "Event Footprint" },
+      { value: 1200, suffix: " sqm", label: "Event Footprint" },
       { value: 200, suffix: "+", label: "VIP Guests" },
       { value: 2000, suffix: "+", label: "Social Shares" },
       { value: 50, suffix: "+", label: "Media Placements" },
     ],
     gallery: [
-      asset("/assets/photos/gallery/nespresso-NES-102.jpg"),
-      asset("/assets/photos/gallery/nespresso-NES-106.jpg"),
-      asset("/assets/photos/gallery/nespresso-NES-135.jpg"),
-      asset("/assets/photos/gallery/nespresso-NES-163.jpg"),
-      asset("/assets/photos/gallery/nespresso-NES-297.jpg"),
       asset("/assets/photos/gallery/nespresso-NES-963.jpg"),
-      asset("/assets/photos/gallery/nespresso-NES-1070.jpg"),
-      asset("/assets/photos/gallery/nespresso-NES-1085.jpg"),
-      asset("/assets/photos/gallery/nespresso-NES-1127.jpg"),
       asset("/assets/photos/gallery/nespresso-NES-1196.jpg"),
       asset("/assets/photos/gallery/nespresso-NES-1207.jpg"),
-      asset("/assets/photos/gallery/nespresso-render-1.jpg"),
-      asset("/assets/photos/gallery/nespresso-render-2.jpg"),
-      asset("/assets/photos/gallery/nespresso-render-3.jpg"),
-      asset("/assets/photos/gallery/nespresso-render-4.jpg"),
+      asset("/assets/photos/gallery/nespresso-NES-1239.jpg"),
     ],
   },
   {
@@ -175,19 +155,19 @@ export const projects: Project[] = [
     title: "Vanderlande Airport Show",
     image: asset("/assets/photos/vanderlande-airport.jpg"),
     size: "60 sqm",
-    tags: ["Double Decker", "Product Demo", "Architectural"],
+    tags: ["Open Concept", "Product Demo", "Architectural"],
     location: "Dubai, UAE",
     overview:
-      "A 60 sqm double-decker stand for Vanderlande at the Dubai Airport Show, designed to showcase their baggage handling and logistics automation systems. The stand featured a working conveyor demo on the ground floor and a private meeting area on the upper level, connected by an architectural floating staircase.",
+      "A 60 sqm open-concept stand for Vanderlande at the Dubai Airport Show, designed to showcase their baggage handling and logistics automation systems. The stand featured a working conveyor demo zone and open meeting areas within a clean, architectural layout that maximized visibility from all sides.",
     challenge:
-      "Integrating a live baggage handling conveyor system into a compact 60 sqm footprint while maintaining a premium architectural aesthetic. The upper meeting deck needed acoustic separation from the noisy demo area below, and the freestanding staircase had to meet DCD evacuation width requirements without eating into valuable display space.",
+      "Creating an open, inviting stand that could house a live baggage handling conveyor system within a compact 60 sqm footprint while maintaining premium architectural aesthetics and clear sightlines from every aisle.",
     solution:
-      "We built the frame on 150x150mm steel columns with a composite timber-over-steel upper deck, achieving the required 250 kg/sqm loading in a slim 180mm floor build-up. The staircase was fabricated as a self-supporting steel mono-stringer with glass balustrades, pre-assembled and craned into position in a single lift. Acoustic panels lined the upper meeting room ceiling, reducing ground-floor demo noise by 18 dB.",
+      "We designed a single-floor open layout built on a raised platform with clean architectural lines and strategic lighting to draw attention from multiple aisles. The conveyor demo was integrated at floor level with concealed power connections, while lightweight partition walls created semi-private meeting areas without blocking visibility.",
     features: [
       {
-        title: "Architectural Floating Staircase",
+        title: "Open-Plan Layout",
         description:
-          "Self-supporting steel mono-stringer with 12mm tempered glass balustrades and integrated LED strip lighting under each tread.",
+          "Single-floor design maximizing sightlines from all surrounding aisles, with strategic architectural elements creating visual interest without barriers.",
       },
       {
         title: "Live Conveyor Demo Integration",
@@ -195,59 +175,52 @@ export const projects: Project[] = [
           "Working baggage handling conveyor system embedded into the stand floor with concealed power and data connections, running continuously throughout the show.",
       },
       {
-        title: "Upper Meeting Suite",
+        title: "Architectural Lighting Design",
         description:
-          "Acoustically treated private meeting area on the upper deck with built-in AV presentation system and lounge seating for 8 guests.",
+          "Layered lighting scheme combining recessed ceiling fixtures, accent spotlights, and perimeter LED strips to create depth and drama within the open layout.",
       },
       {
-        title: "Slim-Profile Double Deck",
+        title: "Modular Meeting Areas",
         description:
-          "Composite timber-over-steel deck achieving 250 kg/sqm loading within a 180mm floor build-up, maximizing headroom on both levels.",
+          "Lightweight partition walls creating semi-private conversation zones without compromising the open, accessible feel of the stand.",
       },
     ],
     results: [
       "Stand attracted consistent visitor flow across all three show days",
       "Live demo generated the highest engagement rate on the exhibition floor",
-      "Upper meeting suite hosted 24 scheduled meetings with airline procurement teams",
+      "Open meeting areas hosted 24 scheduled meetings with airline procurement teams",
       "Client rated the project 10/10 in post-show feedback survey",
     ],
     stats: [
       { value: 60, suffix: " sqm", label: "Stand Footprint" },
-      { value: 2, label: "Levels" },
       { value: 24, label: "Meetings Hosted" },
       { value: 3, suffix: " days", label: "Build Time" },
     ],
     gallery: [
       asset("/assets/photos/gallery/vanderlande-1.jpg"),
       asset("/assets/photos/gallery/vanderlande-2.jpg"),
-      asset("/assets/photos/gallery/vanderlande-3.jpg"),
-      asset("/assets/photos/gallery/vanderlande-4.jpg"),
-      asset("/assets/photos/gallery/vanderlande-render-1.jpg"),
-      asset("/assets/photos/gallery/vanderlande-render-2.jpg"),
-      asset("/assets/photos/gallery/vanderlande-render-3.jpg"),
-      asset("/assets/photos/gallery/vanderlande-render-4.jpg"),
     ],
   },
   {
     slug: "spark-breakbulk",
-    client: "Spark",
+    client: "Spark Logistics",
     event: "Breakbulk Middle East",
-    title: "Spark Breakbulk ME",
+    title: "Spark Logistics Breakbulk ME",
     image: asset("/assets/photos/spark-breakbulk.jpg"),
     size: "60 sqm",
     tags: ["Custom Build", "Industrial Design", "Container Concept"],
     location: "Dubai, UAE",
     overview:
-      "A 60 sqm custom-build stand for Spark at Breakbulk Middle East, inspired by shipping container architecture to reflect the client's logistics and freight forwarding identity. The design combined raw industrial materials with polished meeting spaces, creating a memorable visual contrast on the show floor.",
+      "A 60 sqm custom-build stand for Spark Logistics at Breakbulk Middle East, inspired by shipping container architecture to reflect the client's logistics and freight forwarding identity. The design combined raw industrial materials with polished meeting spaces, creating a memorable visual contrast on the show floor.",
     challenge:
       "Translating a shipping container aesthetic into a functional exhibition environment without the stand feeling dark, cramped, or gimmicky. The client needed three separate meeting zones, a reception counter, and a product showcase area — all within 60 sqm — while maintaining clear sightlines from the main aisle.",
     solution:
-      "We fabricated Corten-effect steel panels using weathering-finish laminates over lightweight MDF substrates, achieving the rusted container look at a fraction of the weight. Strategic cutaways and floor-to-ceiling glazed sections broke up the container forms and flooded the interior with light. Corrugated metal cladding on accent walls was sourced from actual industrial sheet stock, CNC-cut and powder-coated on-site.",
+      "We fabricated corrugated steel panels over lightweight MDF substrates, achieving an authentic industrial container look. Strategic cutaways and floor-to-ceiling glazed sections broke up the container forms and flooded the interior with light. Open floorplan layout allowed natural flow between meeting zones.",
     features: [
       {
-        title: "Corten-Effect Panel System",
+        title: "Corrugated Steel Cladding",
         description:
-          "Weathering-finish laminates bonded to 18mm MDF, CNC-routed to replicate corrugation patterns, delivering authentic industrial aesthetics at under 12 kg/sqm.",
+          "Industrial corrugated steel panels mounted on lightweight MDF substrates, creating authentic container aesthetics at manageable weight.",
       },
       {
         title: "Tri-Zone Meeting Layout",
@@ -269,13 +242,13 @@ export const projects: Project[] = [
       "Named one of the top 5 stand designs at Breakbulk ME by event organizers",
       "Stand footfall exceeded client projections by 40%",
       "All three meeting rooms were fully booked across both show days",
-      "Design concept reused for two subsequent regional exhibitions",
+      "Design concept reused for four subsequent editions",
     ],
     stats: [
       { value: 60, suffix: " sqm", label: "Stand Footprint" },
       { value: 3, label: "Meeting Zones" },
       { value: 40, suffix: "%", label: "Above Footfall Target" },
-      { value: 2, suffix: " days", label: "Build Time" },
+      { value: 4, label: "Editions Built" },
     ],
     gallery: [
       asset("/assets/photos/gallery/spark-build-1.jpg"),
@@ -359,16 +332,16 @@ export const projects: Project[] = [
   {
     slug: "sipchem-adipec",
     client: "Sipchem",
-    event: "ADIPEC",
-    title: "Sipchem ADIPEC",
+    event: "Middle East Coatings Show",
+    title: "Sipchem Middle East Coatings Show",
     image: asset("/assets/photos/gallery/sipchem-1.jpg"),
-    size: "90 sqm",
+    size: "100 sqm",
     tags: ["Double Decker", "LED Video Wall", "Premium Finish"],
-    location: "Abu Dhabi, UAE",
+    location: "Dubai, UAE",
     overview:
-      "A 90 sqm double-decker stand for Sipchem at ADIPEC, designed to project the company's position as a leading Saudi petrochemical player on the global stage. The ground floor combined an open reception with product display zones, while the upper deck housed VIP meeting rooms and a hospitality lounge — all anchored by a striking LED video wall visible from two aisles.",
+      "A 100 sqm double-decker stand for Sipchem at Middle East Coatings Show, designed to project the company's position as a leading Saudi specialty chemicals player on the regional stage. The ground floor combined an open reception with product display zones, while the upper deck housed VIP meeting rooms and a hospitality lounge — all anchored by a striking LED video wall visible from two aisles.",
     challenge:
-      "Communicating the scale and technical sophistication of a petrochemical company within a 90 sqm island plot surrounded by much larger competitors. The stand needed to project corporate authority while remaining approachable, and the double-decker structure had to comply with both ADNEC venue regulations and Abu Dhabi Civil Defence requirements for upper-deck occupancy.",
+      "Communicating the scale and technical sophistication of a specialty chemicals company within a 100 sqm island plot surrounded by much larger competitors. The stand needed to project corporate authority while remaining approachable, and the double-decker structure had to comply with both DWTC venue regulations and Dubai Civil Defence requirements for upper-deck occupancy.",
     solution:
       "We designed a bold architectural form using a cantilevered upper deck that extended beyond the ground-floor footprint, creating an imposing visual presence and additional covered meeting space below. The 12 sqm LED video wall ran custom content showing Sipchem's facilities and product range, serving as a visual anchor visible from the main thoroughfare. Premium finishes — stone-effect flooring, fabric-wrapped acoustic panels, and brushed stainless steel trims — reinforced the corporate positioning.",
     features: [
@@ -394,13 +367,13 @@ export const projects: Project[] = [
       },
     ],
     results: [
-      "Stand was one of the most photographed in the petrochemical hall",
+      "Stand was one of the most photographed in the specialty chemicals hall",
       "Upper-deck meeting room hosted 28 scheduled meetings over four days",
       "LED video wall content was repurposed by the client for post-show marketing",
-      "Client renewed for the following year's ADIPEC within one month of the show",
+      "Client renewed for the following year's Middle East Coatings Show within one month of the show",
     ],
     stats: [
-      { value: 90, suffix: " sqm", label: "Stand Footprint" },
+      { value: 100, suffix: " sqm", label: "Stand Footprint" },
       { value: 12, suffix: " sqm", label: "LED Wall" },
       { value: 28, label: "VIP Meetings" },
       { value: 4, suffix: " days", label: "Show Duration" },
@@ -433,7 +406,7 @@ export const projects: Project[] = [
       {
         title: "Interactive Product Kiosks",
         description:
-          "Two 32-inch touchscreen displays running a custom product catalogue app with sample request functionality and built-in lead capture.",
+          "Two 55-inch touchscreen displays running a custom product catalogue app with sample request functionality and built-in lead capture.",
       },
       {
         title: "Semi-Enclosed Meeting Pods",
@@ -481,7 +454,7 @@ export const projects: Project[] = [
     tags: ["LED Integration", "Compact Design", "Security"],
     location: "Dubai, UAE",
     overview:
-      "A 25 sqm compact stand for Altronix at Intersec, Dubai's leading security, safety, and fire protection trade fair. The design centered on dramatic blue LED integration that turned a small footprint into one of the most visually striking presences on the show floor, reflecting Altronix's position in power and surveillance infrastructure.",
+      "A 25 sqm compact stand for Altronix at Intersec, Dubai's leading security, safety, and fire protection trade fair. The design centered on dramatic blue LED integration that turned a small footprint into one of the most visually striking presences on the show floor, reflecting Altronix's position in power and surveillance infrastructure. This was one of six stands we've built for Altronix across multiple editions of Intersec.",
     challenge:
       "Making a 25 sqm island stand compete visually against neighbours with triple the floor space and budget. The client's product range — power supplies and surge protection for CCTV systems — is technically dense but visually undramatic, requiring a design language that communicated innovation and reliability without relying on the products themselves as visual anchors.",
     solution:
@@ -513,6 +486,7 @@ export const projects: Project[] = [
       "Visitor dwell time averaged 4.5 minutes — double the show floor average",
       "Client reported a 60% increase in qualified lead scans compared to prior Intersec",
       "Design featured in Intersec's official post-show highlights reel",
+      "Sixth consecutive stand build for Altronix, reinforcing a long-term partnership",
     ],
     stats: [
       { value: 25, suffix: " sqm", label: "Stand Footprint" },

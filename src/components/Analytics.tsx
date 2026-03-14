@@ -2,6 +2,7 @@
 
 import Script from "next/script";
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 const GA_ID = "G-XXXXXXXXXX";
 const YM_ID = "00000000";
@@ -38,20 +39,16 @@ export function trackFormSubmit(formName: string) {
 }
 
 export default function Analytics() {
-  // Track page views on route changes via popstate
+  const pathname = usePathname();
+
+  // Track page views on route changes via Next.js pathname
   useEffect(() => {
-    if (!isGAActive) return;
-
-    const handleRouteChange = () => {
-      window.gtag("event", "page_view", {
-        page_location: window.location.href,
-        page_title: document.title,
-      });
-    };
-
-    window.addEventListener("popstate", handleRouteChange);
-    return () => window.removeEventListener("popstate", handleRouteChange);
-  }, []);
+    if (!isGAActive || typeof window === "undefined" || !window.gtag) return;
+    window.gtag("event", "page_view", {
+      page_location: window.location.href,
+      page_title: document.title,
+    });
+  }, [pathname]);
 
   return (
     <>

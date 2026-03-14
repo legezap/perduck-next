@@ -31,12 +31,12 @@ const notoArabic = Noto_Sans_Arabic({
 export const metadata: Metadata = {
   title: "The Butter Duck — Global Exhibition Design & Event Production | Dubai",
   description:
-    "Custom exhibition stand design & build in Dubai. From 18 sqm booths to 700 sqm double-deckers. Trusted by Microsoft, Vanderlande & brands across 6 countries.",
+    "Custom exhibition stand design & build in the UAE. From 18 sqm booths to 700 sqm double-deckers. Trusted by Microsoft, Vanderlande & brands across 10 countries.",
   metadataBase: new URL("https://thebutterduck.com"),
   openGraph: {
     title: "The Butter Duck — Exhibition Design & Events — Dubai",
     description:
-      "Exhibition design, event production, and immersive brand experiences. From 18 sqm to 700 sqm. Dubai-based, globally deployed.",
+      "Exhibition design, event production, and immersive brand experiences. From 18 sqm to 700 sqm. UAE-based, globally deployed.",
     url: "https://thebutterduck.com",
     type: "website",
     images: ["/assets/photos/hero-green-corridor.jpg"],
@@ -45,12 +45,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "The Butter Duck — Exhibition Design & Events",
     description:
-      "Global exhibition design and event production. Dubai-based, globally deployed.",
+      "Global exhibition design and event production. UAE-based, globally deployed.",
   },
   icons: { icon: "/assets/favicon.svg" },
-  alternates: {
-    canonical: "https://thebutterduck.com",
-  },
 };
 
 export default function RootLayout({
@@ -75,7 +72,7 @@ export default function RootLayout({
                 logo: "https://thebutterduck.com/assets/photos/duck-brand.jpg",
                 image: "https://thebutterduck.com/assets/photos/hero-microsoft-gitex.jpg",
                 description:
-                  "Dubai-based exhibition stand design, build, and event production company. Custom booths from 18 sqm to 700 sqm deployed across 6 countries.",
+                  "UAE-based exhibition stand design, build, and event production company. Custom booths from 18 sqm to 700 sqm deployed across 10 countries.",
                 address: {
                   "@type": "PostalAddress",
                   streetAddress: "Marina Plaza, 29th Floor",
@@ -91,7 +88,7 @@ export default function RootLayout({
                 telephone: "+971521477966",
                 email: "hello@thebutterduck.com",
                 priceRange: "AED 50,000 - 1,000,000+",
-                openingHours: "Mo-Fr 09:00-18:00",
+                openingHours: "Su-Th 09:00-18:00",
                 sameAs: [
                   "https://instagram.com/thebutterduck",
                   "https://linkedin.com/company/thebutterduck",
@@ -103,6 +100,10 @@ export default function RootLayout({
                   { "@type": "Country", name: "Bahrain" },
                   { "@type": "Country", name: "Oman" },
                   { "@type": "Country", name: "Kuwait" },
+                  { "@type": "Country", name: "Egypt" },
+                  { "@type": "Country", name: "Jordan" },
+                  { "@type": "Country", name: "United Kingdom" },
+                  { "@type": "Country", name: "Germany" },
                 ],
                 hasOfferCatalog: {
                   "@type": "OfferCatalog",
@@ -118,7 +119,7 @@ export default function RootLayout({
                   {
                     "@type": "Review",
                     author: { "@type": "Person", name: "Sarah Al-Rashid" },
-                    reviewBody: "The Butter Duck doesn't just build stands — they build experiences. Our LEAP pavilion was the most talked-about presence at the entire show.",
+                    reviewBody: "The Butter Duck doesn't just build stands — they build experiences. Our LEAP stand was the most talked-about presence at the entire show.",
                     reviewRating: { "@type": "Rating", ratingValue: 5, bestRating: 5 },
                   },
                   {

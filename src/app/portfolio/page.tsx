@@ -1,38 +1,9 @@
-"use client";
-
-import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import RevealOnScroll from "@/components/RevealOnScroll";
 import { projects } from "@/data/projects";
 
-const filterTabs = [
-  { label: "All", filter: () => true },
-  {
-    label: "Custom Build",
-    filter: (p: (typeof projects)[0]) =>
-      p.tags.some((t) => t.includes("Custom Build")),
-  },
-  {
-    label: "Double Decker",
-    filter: (p: (typeof projects)[0]) =>
-      p.tags.some((t) => t.includes("Double Decker")),
-  },
-  {
-    label: "LED & Tech",
-    filter: (p: (typeof projects)[0]) =>
-      p.tags.some((t) => t.includes("LED") || t.includes("Interactive")),
-  },
-  {
-    label: "Events",
-    filter: (p: (typeof projects)[0]) =>
-      p.tags.some((t) => t.includes("Event") || t.includes("Launch") || t.includes("Retail")),
-  },
-];
-
 export default function PortfolioPage() {
-  const [activeFilter, setActiveFilter] = useState(0);
-  const filtered = projects.filter(filterTabs[activeFilter].filter);
 
   return (
     <>
@@ -63,27 +34,10 @@ export default function PortfolioPage() {
           <RevealOnScroll delay={0.2}>
             <p>
               From 25&nbsp;sqm compact stands to 700&nbsp;sqm double-decker
-              pavilions — every build is engineered to make your brand
+              stands — every build is engineered to make your brand
               unmissable.
             </p>
           </RevealOnScroll>
-        </div>
-      </section>
-
-      {/* Filter Tabs */}
-      <section style={{ paddingBottom: 16 }}>
-        <div className="container">
-          <div className="filter-tabs">
-            {filterTabs.map((tab, i) => (
-              <button
-                key={tab.label}
-                className={`filter-tab${i === activeFilter ? " active" : ""}`}
-                onClick={() => setActiveFilter(i)}
-              >
-                {tab.label}
-              </button>
-            ))}
-          </div>
         </div>
       </section>
 
@@ -91,7 +45,7 @@ export default function PortfolioPage() {
       <section className="section-pad-sm">
         <div className="container">
           <div className="portfolio-grid">
-            {filtered.map((project, i) => (
+            {projects.map((project, i) => (
               <RevealOnScroll key={project.slug} delay={i * 0.1}>
                 <Link
                   href={`/projects/${project.slug}`}
