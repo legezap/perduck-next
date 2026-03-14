@@ -146,7 +146,7 @@ export default function HomePage() {
             playsInline
             preload="auto"
             className="hero-bg-img"
-            poster={asset("/assets/photos/hero-green-corridor.jpg")}
+            poster={asset("/assets/photos/hero-microsoft-gitex.jpg")}
           >
             <source src={asset("/assets/hero-video-web.mp4")} type="video/mp4" />
           </video>
