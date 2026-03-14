@@ -52,9 +52,13 @@ export default function Navbar() {
 
   const portfolioItems = [
     { label: "Microsoft — LEAP", href: "/projects/microsoft-leap" },
-    { label: "Altronix — Intersec", href: "/projects/altronix-intersec" },
-    { label: "Spark — Breakbulk", href: "/projects/spark-breakbulk" },
+    { label: "Nespresso — CreatistaPlus", href: "/projects/nespresso-creatista" },
     { label: "Vanderlande — Airport Show", href: "/projects/vanderlande-airport" },
+    { label: "Spark — Breakbulk", href: "/projects/spark-breakbulk" },
+    { label: "HOOSH — World of Vape", href: "/projects/hoosh-world-of-vape" },
+    { label: "Sipchem — ADIPEC", href: "/projects/sipchem-adipec" },
+    { label: "Interfood — Gulfood", href: "/projects/interfood-gulfood" },
+    { label: "Altronix — Intersec", href: "/projects/altronix-intersec" },
   ];
 
   let megaTimeout: ReturnType<typeof setTimeout>;
@@ -126,20 +130,15 @@ export default function Navbar() {
                 onMouseEnter={keepMega}
                 onMouseLeave={hideMega}
                 role="menu"
-                style={{ gridTemplateColumns: "1fr 1fr 1fr" }}
+                style={{ gridTemplateColumns: "1fr 1fr 1fr 1fr", minWidth: 560 }}
               >
                 {portfolioItems.map((item) => (
-                  <Link href={item.href} className="mega-item" role="menuitem" key={item.href}>
+                  <Link href={item.href} className="mega-item" role="menuitem" key={item.href} style={{ padding: 10 }}>
                     <div className="mega-text">
-                      <h4>{item.label}</h4>
+                      <h4 style={{ fontSize: "0.82rem" }}>{item.label}</h4>
                     </div>
                   </Link>
                 ))}
-                <Link href="/portfolio" className="mega-item" role="menuitem" style={{ gridColumn: "1 / -1", textAlign: "center", justifyContent: "center" }}>
-                  <div className="mega-text">
-                    <h4>View All Projects &rarr;</h4>
-                  </div>
-                </Link>
               </div>
             </li>
 
@@ -209,7 +208,6 @@ export default function Navbar() {
               {portfolioItems.map((item) => (
                 <Link href={item.href} key={item.href}>{item.label}</Link>
               ))}
-              <Link href="/portfolio" style={{ fontWeight: 600 }}>View All Projects &rarr;</Link>
             </div>
           </div>
 
