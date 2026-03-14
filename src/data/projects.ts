@@ -265,7 +265,7 @@ export const projects: Project[] = [
     client: "HOOSH",
     event: "World of Vape",
     title: "HOOSH World of Vape",
-    image: asset("/assets/photos/gallery/hoosh-1.jpg"),
+    image: asset("/assets/photos/gallery/hoosh-7.jpg"),
     size: "36 sqm",
     tags: ["Retail Design", "LED Signage", "Product Wall"],
     location: "Dubai, UAE",
@@ -312,7 +312,6 @@ export const projects: Project[] = [
     gallery: [
       asset("/assets/photos/gallery/hoosh-2.jpg"),
       asset("/assets/photos/gallery/hoosh-3.jpg"),
-      asset("/assets/photos/gallery/hoosh-4.jpg"),
       asset("/assets/photos/gallery/hoosh-5.jpg"),
       asset("/assets/photos/gallery/hoosh-6.jpg"),
       asset("/assets/photos/gallery/hoosh-7.jpg"),
