@@ -250,17 +250,17 @@ export default async function ProjectPage({
         variant="solution"
       />
 
-      {/* Render vs Reality */}
-      {renders.length > 0 && (
-        <RenderReality renders={renders} photos={photos} />
-      )}
-
-      {/* Gallery (exclude renders — they're shown in Render vs Reality) */}
+      {/* Gallery */}
       {photos.length > 0 && (
         <ImageGallery
           images={photos}
           alt={`${project.client} ${project.event}`}
         />
+      )}
+
+      {/* Render vs Reality */}
+      {renders.length > 0 && (
+        <RenderReality renders={renders} photos={photos} />
       )}
 
       {/* Key Features */}
