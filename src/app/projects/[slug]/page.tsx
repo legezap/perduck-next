@@ -255,10 +255,10 @@ export default async function ProjectPage({
         <RenderReality renders={renders} photos={photos} />
       )}
 
-      {/* Gallery */}
-      {project.gallery.length > 0 && (
+      {/* Gallery (exclude renders — they're shown in Render vs Reality) */}
+      {photos.length > 0 && (
         <ImageGallery
-          images={project.gallery}
+          images={photos}
           alt={`${project.client} ${project.event}`}
         />
       )}
