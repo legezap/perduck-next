@@ -51,12 +51,10 @@ export default function Navbar() {
   ];
 
   const portfolioItems = [
-    { label: "Microsoft @ LEAP", href: "/projects/microsoft-leap" },
-    { label: "Altronix @ Intersec", href: "/projects/altronix-intersec" },
-    { label: "Absolut Skandic @ L+B", href: "/projects/absolut-skandic" },
-    { label: "Spark @ Breakbulk", href: "/projects/spark-breakbulk" },
-    { label: "Vanderlande @ Airport Show", href: "/projects/vanderlande-airport" },
-    { label: "IK Group @ ADIPEC", href: "/projects/ikgroup-adipec" },
+    { label: "Microsoft — LEAP", href: "/projects/microsoft-leap" },
+    { label: "Altronix — Intersec", href: "/projects/altronix-intersec" },
+    { label: "Spark — Breakbulk", href: "/projects/spark-breakbulk" },
+    { label: "Vanderlande — Airport Show", href: "/projects/vanderlande-airport" },
   ];
 
   let megaTimeout: ReturnType<typeof setTimeout>;
@@ -139,7 +137,7 @@ export default function Navbar() {
                 ))}
                 <Link href="/portfolio" className="mega-item" role="menuitem" style={{ gridColumn: "1 / -1", textAlign: "center", justifyContent: "center" }}>
                   <div className="mega-text">
-                    <h4>View All 10 Projects &rarr;</h4>
+                    <h4>View All Projects &rarr;</h4>
                   </div>
                 </Link>
               </div>
@@ -211,7 +209,7 @@ export default function Navbar() {
               {portfolioItems.map((item) => (
                 <Link href={item.href} key={item.href}>{item.label}</Link>
               ))}
-              <Link href="/portfolio" style={{ fontWeight: 600 }}>View All 10 Projects &rarr;</Link>
+              <Link href="/portfolio" style={{ fontWeight: 600 }}>View All Projects &rarr;</Link>
             </div>
           </div>
 

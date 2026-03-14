@@ -162,7 +162,6 @@ export const projects: Project[] = [
       asset("/assets/photos/gallery/nespresso-NES-1127.jpg"),
       asset("/assets/photos/gallery/nespresso-NES-1196.jpg"),
       asset("/assets/photos/gallery/nespresso-NES-1207.jpg"),
-      asset("/assets/photos/gallery/nespresso-NES-1239.jpg"),
       asset("/assets/photos/gallery/nespresso-render-1.jpg"),
       asset("/assets/photos/gallery/nespresso-render-2.jpg"),
       asset("/assets/photos/gallery/nespresso-render-3.jpg"),
@@ -291,7 +290,7 @@ export const projects: Project[] = [
     slug: "hoosh-world-of-vape",
     client: "HOOSH",
     event: "World of Vape",
-    title: "HOOSH @ World of Vape",
+    title: "HOOSH — World of Vape",
     image: asset("/assets/photos/gallery/hoosh-1.jpg"),
     size: "36 sqm",
     tags: ["Retail Design", "LED Signage", "Product Wall"],
@@ -337,7 +336,6 @@ export const projects: Project[] = [
       { value: 6, suffix: " min", label: "Avg Dwell Time" },
     ],
     gallery: [
-      asset("/assets/photos/gallery/hoosh-1.jpg"),
       asset("/assets/photos/gallery/hoosh-2.jpg"),
       asset("/assets/photos/gallery/hoosh-3.jpg"),
       asset("/assets/photos/gallery/hoosh-4.jpg"),
@@ -361,7 +359,7 @@ export const projects: Project[] = [
     slug: "sipchem-adipec",
     client: "Sipchem",
     event: "ADIPEC",
-    title: "Sipchem @ ADIPEC",
+    title: "Sipchem — ADIPEC",
     image: asset("/assets/photos/gallery/sipchem-1.jpg"),
     size: "90 sqm",
     tags: ["Double Decker", "LED Video Wall", "Premium Finish"],
@@ -407,7 +405,6 @@ export const projects: Project[] = [
       { value: 4, suffix: " days", label: "Show Duration" },
     ],
     gallery: [
-      asset("/assets/photos/gallery/sipchem-1.jpg"),
       asset("/assets/photos/gallery/sipchem-2.jpg"),
     ],
   },
@@ -415,7 +412,7 @@ export const projects: Project[] = [
     slug: "interfood-gulfood",
     client: "Interfood",
     event: "Gulfood Manufacturing",
-    title: "Interfood @ Gulfood Manufacturing",
+    title: "Interfood — Gulfood Manufacturing",
     image: asset("/assets/photos/gallery/interfood-1.jpg"),
     size: "54 sqm",
     tags: ["Custom Build", "Hanging Signage", "Interactive Display"],
@@ -461,7 +458,6 @@ export const projects: Project[] = [
       { value: 3, suffix: " days", label: "Build Time" },
     ],
     gallery: [
-      asset("/assets/photos/gallery/interfood-1.jpg"),
       asset("/assets/photos/gallery/interfood-2.jpg"),
       asset("/assets/photos/gallery/interfood-3.jpg"),
       asset("/assets/photos/gallery/interfood-4.jpg"),
@@ -532,107 +528,5 @@ export const projects: Project[] = [
       asset("/assets/photos/gallery/altronix-render-3.jpg"),
       asset("/assets/photos/gallery/altronix-render-4.jpg"),
     ],
-  },
-  {
-    slug: "absolut-skandic",
-    client: "Absolut Skandic",
-    event: "Light + Building ME",
-    title: "Absolut Skandic L+B ME",
-    image: asset("/assets/photos/absolut-skandic.jpg"),
-    size: "30 sqm",
-    tags: ["Lighting Design", "Interactive", "Product Showcase"],
-    location: "Dubai, UAE",
-    overview:
-      "A 30 sqm lighting showcase for Absolut Skandic at Light + Building Middle East, designed as a walk-through experience where visitors could interact with the client's full range of architectural and decorative luminaires in realistic room settings. The stand doubled as both a product showroom and an immersive demonstration of what their lighting could achieve.",
-    challenge:
-      "Displaying over 40 lighting products in a 30 sqm space without creating a cluttered showroom feel. Each product needed to be experienced in its intended context — accent lighting in a living room vignette, task lighting in a kitchen scene, decorative pendants in a hospitality setting — while allowing visitors to control dimming, colour temperature, and beam angles in real time.",
-    solution:
-      "We divided the stand into four themed zones, each built as a partial room set with realistic finishes — oak-effect flooring, plaster-texture walls, marble-look countertops. A custom DALI lighting control system linked all products to four iPad stations, letting visitors adjust any fixture in the zone with a tap. Track-mounted power rails above each zone allowed products to be hot-swapped between show days without any re-wiring.",
-    features: [
-      {
-        title: "Four Themed Experience Zones",
-        description:
-          "Residential, hospitality, office, and retail vignettes with realistic material finishes, each showcasing 10+ luminaires in their intended application context.",
-      },
-      {
-        title: "Interactive DALI Control System",
-        description:
-          "Custom DALI-2 lighting control linked to four iPad stations, allowing visitors to adjust dimming, CCT (2700K-6500K), and beam angles for every fixture in real time.",
-      },
-      {
-        title: "Hot-Swap Track Power Rails",
-        description:
-          "Ceiling-mounted electrified tracks allowing products to be repositioned or swapped between show days without tools or re-wiring.",
-      },
-      {
-        title: "Ambient Blackout Design",
-        description:
-          "Perimeter walls lined with matte black acoustic fabric to eliminate ambient light spill, ensuring each zone's lighting told its own story without interference.",
-      },
-    ],
-    results: [
-      "Visitors spent an average of 7 minutes on-stand — the highest dwell time in the lighting hall",
-      "Interactive controls were used over 1,200 times across the 3-day show",
-      "Client signed 6 new distribution agreements directly attributed to on-stand meetings",
-      "Stand design was featured in regional lighting industry press coverage",
-    ],
-    stats: [
-      { value: 30, suffix: " sqm", label: "Stand Footprint" },
-      { value: 40, suffix: "+", label: "Products Displayed" },
-      { value: 1200, suffix: "+", label: "Interactive Sessions" },
-      { value: 6, label: "Deals Signed On-Stand" },
-    ],
-    gallery: [],
-  },
-  {
-    slug: "ikgroup-adipec",
-    client: "IK Group",
-    event: "ADIPEC",
-    title: "IK Group ADIPEC",
-    image: asset("/assets/photos/ikgroup-adipec.jpg"),
-    size: "45 sqm",
-    tags: ["Oil & Gas", "Technical Display", "Custom Build"],
-    location: "Abu Dhabi, UAE",
-    overview:
-      "A 45 sqm custom-build stand for IK Group at ADIPEC, the world's largest oil and gas exhibition. The design balanced technical credibility with approachable aesthetics, featuring physical product displays of valves, fittings, and pipeline components alongside digital presentations of the company's project portfolio across the GCC region.",
-    challenge:
-      "IK Group's products — industrial valves, flanges, and pipe fittings — are heavy, utilitarian items that don't naturally lend themselves to attractive exhibition display. The stand needed to present these products as precision-engineered components rather than commodity hardware, while also accommodating a secure storage area for high-value sample inventory and a private meeting room for sensitive procurement discussions.",
-    solution:
-      "We designed a museum-style product display system using individual illuminated plinths with tempered glass covers, each housing a single hero product with technical spec cards printed on brushed aluminium panels. The stand's material language — brushed stainless steel trims, anthracite-tinted glass partitions, and charcoal stone-effect flooring — reinforced the industrial premium positioning. A secure back-of-house area with lockable roller shutters stored reserve inventory, while a fully enclosed meeting room with acoustic glazing provided privacy for procurement negotiations.",
-    features: [
-      {
-        title: "Museum-Style Product Display",
-        description:
-          "Individual illuminated plinths with tempered glass covers and brushed aluminium spec panels, elevating industrial hardware into a premium presentation format.",
-      },
-      {
-        title: "Secure Back-of-House Storage",
-        description:
-          "Lockable storage area with roller shutter access, climate-controlled to protect high-value valve and fitting samples from exhibition hall temperature swings.",
-      },
-      {
-        title: "Acoustic Private Meeting Room",
-        description:
-          "Fully enclosed meeting room with 10mm acoustic-laminated glass partitions, integrated AV system, and seating for 6 around a built-in presentation table.",
-      },
-      {
-        title: "Industrial Premium Material Palette",
-        description:
-          "Brushed stainless steel trims, anthracite-tinted glass, charcoal stone-effect raised flooring, and gunmetal fabric wall panels throughout.",
-      },
-    ],
-    results: [
-      "Stand received consistent traffic from major NOC and EPC procurement teams",
-      "Private meeting room hosted 18 scheduled meetings over the 4-day show",
-      "Product display format was adopted as IK Group's standard for all subsequent exhibitions",
-      "Client reported the strongest ADIPEC lead pipeline in their company history",
-    ],
-    stats: [
-      { value: 45, suffix: " sqm", label: "Stand Footprint" },
-      { value: 18, label: "Scheduled Meetings" },
-      { value: 4, suffix: " days", label: "Show Duration" },
-      { value: 12, label: "Products Showcased" },
-    ],
-    gallery: [],
   },
 ];
