@@ -51,14 +51,14 @@ export default function Navbar() {
   ];
 
   const portfolioItems = [
-    { label: "Microsoft — LEAP", href: "/projects/microsoft-leap" },
-    { label: "Nespresso — CreatistaPlus", href: "/projects/nespresso-creatista" },
-    { label: "Vanderlande — Airport Show", href: "/projects/vanderlande-airport" },
-    { label: "Spark — Breakbulk", href: "/projects/spark-breakbulk" },
-    { label: "HOOSH — World of Vape", href: "/projects/hoosh-world-of-vape" },
-    { label: "Sipchem — ADIPEC", href: "/projects/sipchem-adipec" },
-    { label: "Interfood — Gulfood", href: "/projects/interfood-gulfood" },
-    { label: "Altronix — Intersec", href: "/projects/altronix-intersec" },
+    { label: "Microsoft LEAP", href: "/projects/microsoft-leap" },
+    { label: "Nespresso CreatistaPlus", href: "/projects/nespresso-creatista" },
+    { label: "Vanderlande Airport Show", href: "/projects/vanderlande-airport" },
+    { label: "Spark Breakbulk ME", href: "/projects/spark-breakbulk" },
+    { label: "HOOSH World of Vape", href: "/projects/hoosh-world-of-vape" },
+    { label: "Sipchem ADIPEC", href: "/projects/sipchem-adipec" },
+    { label: "Interfood Gulfood", href: "/projects/interfood-gulfood" },
+    { label: "Altronix Intersec", href: "/projects/altronix-intersec" },
   ];
 
   let megaTimeout: ReturnType<typeof setTimeout>;

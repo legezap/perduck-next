@@ -26,7 +26,7 @@ export async function generateMetadata({
   const project = projects.find((p) => p.slug === slug);
   if (!project) return {};
   return {
-    title: `${project.client} — ${project.event} | Case Study | The Butter Duck`,
+    title: `${project.client} ${project.event} | Case Study | The Butter Duck`,
     description: project.overview.slice(0, 160),
     openGraph: {
       images: [{ url: project.image }],
@@ -65,7 +65,7 @@ export default async function ProjectPage({
             <Link href="/portfolio">Portfolio</Link>
             <span className="sep">/</span>
             <span className="current">
-              {project.client} — {project.event}
+              {project.client} {project.event}
             </span>
           </div>
         </div>
@@ -76,7 +76,7 @@ export default async function ProjectPage({
         <Parallax className="hero-bg">
           <Image
             src={project.image}
-            alt={`${project.client} — ${project.event}`}
+            alt={`${project.client} ${project.event}`}
             fill
             priority
             className="hero-bg-img"
@@ -93,7 +93,7 @@ export default async function ProjectPage({
               <h1>
                 {project.client}
                 <br />
-                <span className="accent">— {project.event}</span>
+                <span className="accent">{project.event}</span>
               </h1>
             </RevealOnScroll>
             <RevealOnScroll delay={0.2}>
@@ -252,7 +252,7 @@ export default async function ProjectPage({
       {project.gallery.length > 0 && (
         <ImageGallery
           images={project.gallery}
-          alt={`${project.client} — ${project.event}`}
+          alt={`${project.client} ${project.event}`}
         />
       )}
 
@@ -406,7 +406,7 @@ export default async function ProjectPage({
               <span className="arrow" style={{ transform: "rotate(180deg)" }}>
                 &rarr;
               </span>{" "}
-              {prev.client} — {prev.event}
+              {prev.client} {prev.event}
             </Link>
           ) : (
             <span />
@@ -417,7 +417,7 @@ export default async function ProjectPage({
               className="btn btn-ghost"
               style={{ marginLeft: "auto" }}
             >
-              {next.client} — {next.event}{" "}
+              {next.client} {next.event}{" "}
               <span className="arrow">&rarr;</span>
             </Link>
           ) : (
