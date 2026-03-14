@@ -31,7 +31,7 @@ const notoArabic = Noto_Sans_Arabic({
 export const metadata: Metadata = {
   title: "The Butter Duck — Global Exhibition Design & Event Production | Dubai",
   description:
-    "Custom exhibition stand design & build in the UAE. From 25 sqm booths to 700 sqm double-deckers. Trusted by Microsoft, Vanderlande & brands across 10 countries.",
+    "Custom exhibition stand design & build in the UAE. From 25 sqm booths to 1000+ sqm builds. Trusted by Microsoft, Vanderlande & brands across 10 countries.",
   metadataBase: new URL("https://thebutterduck.com"),
   openGraph: {
     title: "The Butter Duck — Exhibition Design & Events — Dubai",

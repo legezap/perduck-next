@@ -249,7 +249,6 @@ export const projects: Project[] = [
       asset("/assets/photos/gallery/spark-build-1.jpg"),
       asset("/assets/photos/gallery/spark-build-2.jpg"),
       asset("/assets/photos/gallery/spark-render-1.jpg"),
-      asset("/assets/photos/gallery/spark-render-2.jpg"),
     ],
   },
   {
@@ -306,7 +305,6 @@ export const projects: Project[] = [
       asset("/assets/photos/gallery/hoosh-9.jpg"),   // pairs with render-3 (product wall from left)
       // Remaining photos (not paired)
       asset("/assets/photos/gallery/hoosh-2.jpg"),
-      asset("/assets/photos/gallery/hoosh-3.jpg"),
       asset("/assets/photos/gallery/hoosh-5.jpg"),
       asset("/assets/photos/gallery/hoosh-7.jpg"),
       asset("/assets/photos/gallery/hoosh-8.jpg"),
@@ -422,7 +420,6 @@ export const projects: Project[] = [
       asset("/assets/photos/gallery/interfood-2.jpg"),
       asset("/assets/photos/gallery/interfood-3.jpg"),
       asset("/assets/photos/gallery/interfood-render-1.jpg"),
-      asset("/assets/photos/gallery/interfood-render-2.jpg"),
     ],
   },
   {

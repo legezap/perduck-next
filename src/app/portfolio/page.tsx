@@ -33,9 +33,7 @@ export default function PortfolioPage() {
           </RevealOnScroll>
           <RevealOnScroll delay={0.2}>
             <p>
-              From 25&nbsp;sqm compact stands to 700&nbsp;sqm double-decker
-              stands — every build is engineered to make your brand
-              unmissable.
+              From 25 sqm compact stands to 1000+ sqm builds — every project is engineered to make your brand unmissable.
             </p>
           </RevealOnScroll>
         </div>

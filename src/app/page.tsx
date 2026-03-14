@@ -130,7 +130,7 @@ export default function HomePage() {
           <RevealOnScroll delay={0.35}>
             <p className="hero-sub">
               Exhibition stands from <strong>25&nbsp;sqm</strong> to{" "}
-              <strong>700&nbsp;sqm</strong>. Trusted by{" "}
+              <strong>1000+&nbsp;sqm</strong>. Trusted by{" "}
               <strong>Microsoft</strong>, <strong>Vanderlande</strong>,{" "}
               <strong>Altronix</strong>, and brands across 10&nbsp;countries.
             </p>
@@ -356,8 +356,7 @@ export default function HomePage() {
                 <span className="accent">Unforgettable Moments.</span>
               </h2>
               <p>
-                From intimate product launches to 700 sqm stands — we create
-                brand experiences that people talk about long after the event.
+                From intimate product launches to 1000+ sqm builds — we create brand experiences that people talk about long after the event.
               </p>
             </div>
           </RevealOnScroll>

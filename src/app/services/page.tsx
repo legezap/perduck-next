@@ -7,7 +7,7 @@ import { asset } from "@/lib/basePath";
 export const metadata: Metadata = {
   title: "Exhibition Stand Design & Build Services | The Butter Duck Dubai",
   description:
-    "Custom exhibition stand design, build, project management, and event production services in the UAE. From 25 sqm booths to 700 sqm double-decker stands. Get a free quote.",
+    "Custom exhibition stand design, build, project management, and event production services in the UAE. From 25 sqm booths to 1000+ sqm builds. Get a free quote.",
 };
 
 const services = [
@@ -18,7 +18,7 @@ const services = [
     image: asset("/assets/photos/microsoft-leap.jpg"),
     reverse: false,
     bullets: [
-      "Custom exhibition stands from 25 sqm to 700+ sqm, designed for impact and flow",
+      "Custom exhibition stands from 25 sqm to 1000+ sqm, designed for impact and flow",
       "Integrated LED walls, lightboxes, and dynamic AV installations",
       "Modular & reusable booth systems for multi-show ROI",
       "Full 3D visualization and walkthrough renders before build",

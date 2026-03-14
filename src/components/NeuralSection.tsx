@@ -269,6 +269,12 @@ const cssText = `
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.${SCOPE}-nodes--single {
+  grid-template-columns: 1fr;
+  max-width: 700px;
 }
 @media (max-width: 768px) {
   .${SCOPE}-nodes { grid-template-columns: 1fr; gap: 16px; }
@@ -510,7 +516,7 @@ export default function NeuralSection({
           </div>
 
           {/* Sentence nodes */}
-          <div className={`${SCOPE}-nodes`}>
+          <div className={`${SCOPE}-nodes${sentences.length <= 2 ? ` ${SCOPE}-nodes--single` : ""}`}>
             {sentences.map((sentence, i) => (
               <NodeCard
                 key={i}
