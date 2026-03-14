@@ -62,7 +62,7 @@ const timeline = [
   {
     year: "2019",
     title: "Company Founded",
-    desc: "Started in Dubai with a clear vision: exhibition builds that actually deliver on the render.",
+    desc: "Started in the UAE with a clear vision: exhibition builds that actually deliver on the render.",
   },
   {
     year: "2020",
