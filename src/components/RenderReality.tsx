@@ -11,10 +11,11 @@ interface RenderRealityProps {
 export default function RenderReality({ renders, photos }: RenderRealityProps) {
   if (renders.length === 0) return null;
 
-  // Pair renders with photos (use as many pairs as we have renders)
-  const pairs = renders.map((render, i) => ({
+  // Only create pairs where BOTH render and photo exist — no fallback, no duplicates
+  const maxPairs = Math.min(renders.length, photos.length);
+  const pairs = renders.slice(0, maxPairs).map((render, i) => ({
     render,
-    photo: photos[i] || photos[0], // fallback to first photo if not enough
+    photo: photos[i],
   }));
 
   return (

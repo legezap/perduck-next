@@ -305,21 +305,17 @@ export const projects: Project[] = [
       { value: 6, suffix: " min", label: "Avg Dwell Time" },
     ],
     gallery: [
+      // Matched photo comes first — paired with render by index
+      asset("/assets/photos/gallery/hoosh-9.jpg"),   // pairs with render-3 (product wall from left)
+      // Remaining photos (not paired)
       asset("/assets/photos/gallery/hoosh-2.jpg"),
       asset("/assets/photos/gallery/hoosh-3.jpg"),
       asset("/assets/photos/gallery/hoosh-5.jpg"),
-      asset("/assets/photos/gallery/hoosh-6.jpg"),
       asset("/assets/photos/gallery/hoosh-7.jpg"),
       asset("/assets/photos/gallery/hoosh-8.jpg"),
-      asset("/assets/photos/gallery/hoosh-9.jpg"),
       asset("/assets/photos/gallery/hoosh-10.jpg"),
-      asset("/assets/photos/gallery/hoosh-render-1.jpg"),
-      asset("/assets/photos/gallery/hoosh-render-2.jpg"),
+      // Only renders with a matching photo
       asset("/assets/photos/gallery/hoosh-render-3.jpg"),
-      asset("/assets/photos/gallery/hoosh-render-4.jpg"),
-      asset("/assets/photos/gallery/hoosh-render-5.jpg"),
-      asset("/assets/photos/gallery/hoosh-render-6.jpg"),
-      asset("/assets/photos/gallery/hoosh-render-7.jpg"),
       asset("/assets/photos/gallery/hoosh-floorplan-1.jpg"),
     ],
   },
