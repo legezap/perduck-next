@@ -60,7 +60,7 @@ const services = [
     id: "content-media",
     label: "Content & Media",
     title: "Content & Media Production",
-    image: asset("/assets/photos/hero-microsoft-gitex.jpg"),
+    image: asset("/assets/photos/gallery/nespresso-NES-135.jpg"),
     reverse: true,
     bullets: [
       "Video production for booth loops, teasers, and social content",
