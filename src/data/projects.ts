@@ -31,7 +31,7 @@ export const projects: Project[] = [
     overview:
       "A 700 sqm double-decker stand that gave Microsoft a commanding two-level presence at LEAP — Saudi Arabia's largest tech event. The build housed live product demos, executive meeting suites, and a keynote theatre, turning a floor plot into a destination.",
     challenge:
-      "Delivering a fully compliant two-storey structure within a 10-day venue access window, while meeting Saudi Civil Defence load and fire safety requirements for upper-deck occupancy.",
+      "Delivering a fully compliant two-storey structure within a 10-day venue access window, while meeting Saudi Civil Defence load and fire safety requirements for upper-deck occupancy. The upper deck needed to support meeting rooms, a hospitality lounge, and continuous foot traffic without any structural compromise. Coordinating AV, lighting, and HVAC across two levels required a power distribution plan that could handle peak demo loads without interruption.",
     solution:
       "The superstructure was pre-fabricated in our Dubai workshop and shipped flat-pack to Riyadh, cutting on-site assembly time in half. A 63A three-phase power distribution system isolated AV, lighting, and HVAC on dedicated circuits to prevent brownouts during peak demo hours. The result: a structure that performed like a permanent installation but was built, used, and dismantled in under three weeks.",
     features: [
@@ -155,7 +155,7 @@ export const projects: Project[] = [
     overview:
       "A 60 sqm open-concept stand for Vanderlande at the Dubai Airport Show, built around a working conveyor demonstration that let airport procurement teams see the product in action. Clean architectural lines and open sightlines from all four aisles did the rest.",
     challenge:
-      "Fitting a live baggage handling conveyor system into a 60 sqm footprint without sacrificing the premium look or blocking sightlines that drive walk-up traffic.",
+      "Fitting a live demonstration system into a compact 60 sqm open-plan stand without sacrificing premium aesthetics. The stand needed to feel inviting from every aisle while accommodating private meeting areas for airline procurement discussions. All structural and electrical work had to comply with Dubai venue regulations within a tight 3-day build window.",
     solution:
       "A raised platform with clean architectural lines anchored the stand and drew attention from multiple aisles. The conveyor demo was integrated at floor level with concealed power connections, running continuously throughout the show. Lightweight partition walls created semi-private meeting areas for procurement conversations without closing off the stand.",
     features: [
@@ -248,11 +248,8 @@ export const projects: Project[] = [
     gallery: [
       asset("/assets/photos/gallery/spark-build-1.jpg"),
       asset("/assets/photos/gallery/spark-build-2.jpg"),
-      asset("/assets/photos/gallery/spark-build-3.jpg"),
       asset("/assets/photos/gallery/spark-render-1.jpg"),
       asset("/assets/photos/gallery/spark-render-2.jpg"),
-      asset("/assets/photos/gallery/spark-render-3.jpg"),
-      asset("/assets/photos/gallery/spark-render-4.jpg"),
     ],
   },
   {
@@ -424,14 +421,8 @@ export const projects: Project[] = [
     gallery: [
       asset("/assets/photos/gallery/interfood-2.jpg"),
       asset("/assets/photos/gallery/interfood-3.jpg"),
-      asset("/assets/photos/gallery/interfood-4.jpg"),
-      asset("/assets/photos/gallery/interfood-5.jpg"),
       asset("/assets/photos/gallery/interfood-render-1.jpg"),
       asset("/assets/photos/gallery/interfood-render-2.jpg"),
-      asset("/assets/photos/gallery/interfood-render-3.jpg"),
-      asset("/assets/photos/gallery/interfood-render-4.jpg"),
-      asset("/assets/photos/gallery/interfood-render-5.jpg"),
-      asset("/assets/photos/gallery/interfood-render-6.jpg"),
     ],
   },
   {
