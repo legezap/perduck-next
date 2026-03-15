@@ -21,14 +21,6 @@ const marqueeItems = [
   "Global Delivery",
 ];
 
-const trustLogos = [
-  { src: asset("/assets/logos/client-1.png"), alt: "Client" },
-  { src: asset("/assets/logos/client-2.png"), alt: "Client" },
-  { src: asset("/assets/logos/client-3.png"), alt: "Client" },
-  { src: asset("/assets/logos/client-4.png"), alt: "Client" },
-  { src: asset("/assets/logos/client-5.png"), alt: "Client" },
-  { src: asset("/assets/logos/client-6.png"), alt: "Client" },
-];
 
 const services = [
   {
@@ -180,7 +172,7 @@ export default function HomePage() {
       </div>
 
       {/* ========== 3. TRUST BAR ========== */}
-      <TrustBar logos={trustLogos} />
+      <TrustBar />
 
       {/* ========== 4. SERVICES OVERVIEW ========== */}
       <section className="section-pad">
