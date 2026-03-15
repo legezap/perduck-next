@@ -4,6 +4,7 @@ import RevealOnScroll from "@/components/RevealOnScroll";
 import CounterAnimation from "@/components/CounterAnimation";
 import Parallax from "@/components/Parallax";
 import AutoPlayVideo from "@/components/AutoPlayVideo";
+import TrustBar from "@/components/TrustBar";
 import { asset } from "@/lib/basePath";
 import { projects } from "@/data/projects";
 
@@ -179,23 +180,7 @@ export default function HomePage() {
       </div>
 
       {/* ========== 3. TRUST BAR ========== */}
-      <section className="trust-bar">
-        <div className="container">
-          <p className="trust-label">Trusted by Industry Leaders</p>
-          <div className="trust-logos">
-            {trustLogos.map((logo) => (
-              <Image
-                key={logo.alt}
-                src={logo.src}
-                alt={logo.alt}
-                width={120}
-                height={28}
-                className="trust-logo"
-              />
-            ))}
-          </div>
-        </div>
-      </section>
+      <TrustBar logos={trustLogos} />
 
       {/* ========== 4. SERVICES OVERVIEW ========== */}
       <section className="section-pad">
